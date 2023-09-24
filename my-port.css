@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding:0;
+    
+}
+.sec1{
+    display:flex;
+    
+    justify-content: space-between;
+    height:55px;
+   
+}
+.heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 20px;
+   color: rgb(203, 190, 190);
+margin-top: 10px;
+margin-left: 20px;
+}
+nav{
+   text-align: right; 
+   margin-top: 10px;
+  
+}
+nav ul li{
+   display: inline;
+border-radius: 5px;
+color: rgb(203, 190, 190);
+font-style: italic;
+font-size: 13px;
+padding: 7px 10px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin-right: 30px;
+border :0.5px solid rgb(6, 201, 215);
+}
+nav ul li a{
+    color:rgb(230, 219, 219);
+    text-decoration: none;
+}
+h2{
+margin-top: 150px;
+    font-size: 40px;
+    color: rgb(230, 219, 219);
+    margin-left: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.select{
+    color:rgb(6, 201, 215);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    
+}
+ #sec2 p{
+color:rgb(230, 219, 219);
+margin-left: 100px;
+font-size: 20px;
+}
+#sec2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+img{
+    width:300px;
+    height:500px;
+    border-radius: 50px;
+    margin-right: 100px;
+  margin-top: 50px;
+  box-shadow: 5px 10px 14px 10px rgb(129, 230, 237);
+}
+.icons{
+    display:flex;
+  gap:2em;
+    font-size: 20px;
+    margin-left: 120px;
+    margin-top: 50px;
+  }
+.fa-facebook,.fa-instagram,.fa-linkedin,.fa-whatsapp{
+    background-color:rgb(224, 223, 223); 
+    color:rgb(2, 104, 112);
+    height:25px;
+    width:30px;
+      padding-top:5px;
+    padding-left: 10px;
+    border-radius: 50%;
+}
+pre{
+   margin-top: 10px;
+    margin-left:40%;
+}
+section h1{
+    margin-top: 200px;
+    color: white;
+    margin-bottom: 40px;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px rgba(140, 233, 240, 0.589);;
+}
+.one{
+    margin:0 auto;
+        position:relative;
+ }
+.one::after{
+content: '';
+position: absolute;
+width:1px;
+height:auto;
+background-color: azure;
+left: 39.5%;
+top: 0;
+bottom:0;
+}
+.container{
+    position: relative;
+    width:50%;
+    padding:10px 10px;
+    left:40%;
+}
+.two{
+    color: white;
+    margin-bottom: 30px;
+    padding:10px 10px 10px;
+    
+}
+.two p{
+    font-size: 22px;
+   margin: 10px 0 10px 0;
+}
+.two h4{
+ font-size: 15px;
+ margin: 10px 0 10px 0;
+}
+.two ul li{
+    color:aqua;
+   
+   font-size: 50px;
+  
+}
+.year{
+    color:white;
+    font-size: 20px;
+}
+.proj-head{
+    color:white;
+   margin-top: 200px;
+   margin-bottom: 150px;
+}
+.proj{
+    display: flex;
+   gap:2rem;
+    margin-left: 200px;
+    margin-right:150px;
+   
+}
+.projects{
+    border:2px solid white;
+    color: white;
+   padding: 20px 20px;
+   border-radius: 10px;
+  
+}
+.projects h3{
+    font-size:25px;
+   margin-bottom: 20px;
+   margin-top: 20px;
+   color: rgb(153, 237, 243);
+   
+   font-style: italic;
+}
+.projects p{
+    font-style: italic;
+    font-size: 15px;
+    line-height: 25px;
+}
+.last{
+    height:150px;
+    color:white;
+    background-color: rgb(46, 43, 43);
+    margin-top: 50px;
+    padding: 50px 30px;
+   
+}
+.last p{
+    margin-left:40%;
+}
+a{
+    color: rgb(153, 237, 243);
+    text-decoration: none;
+}
+.projects:hover{
+    box-shadow:3px 5px 8px 5px rgb(129, 230, 237); ;
+}
+nav ul li:hover{
+    box-shadow:2px 3px 4px 3px rgb(129, 230, 237); ;
+}
